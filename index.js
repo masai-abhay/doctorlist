@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function deleteRow(button) {
+    
     let row = button.parentElement.parentElement;
     row.remove();
 }
